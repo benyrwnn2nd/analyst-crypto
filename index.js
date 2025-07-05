@@ -1,6 +1,6 @@
 const axios = require("axios");
 
-const API_KEY = "your-apikey-here";
+const API_KEY = 'your-api-key-here'; // Replace with your CHARTIMG API key
 
 function sma(data, period) {
   if (data.length < period) return Array(data.length).fill(undefined);
